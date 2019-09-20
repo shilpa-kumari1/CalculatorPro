@@ -10,8 +10,16 @@ import XCTest
 @testable import CalculatorPro
 
 class CalculatorProTests: XCTestCase {
-
-    override func setUp() {
+   
+    var collection : Int!
+    
+    func testCollectionExpectedItemsCount(){
+        collection = CalculatorPro.ViewController().arr.count
+        XCTAssert(collection == 0, "Collection didn't have expected number of items")
+        
+        
+    }
+    /*override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
 
@@ -29,6 +37,6 @@ class CalculatorProTests: XCTestCase {
         self.measure {
             // Put the code you want to measure the time of here.
         }
-    }
+    }*/
 
 }

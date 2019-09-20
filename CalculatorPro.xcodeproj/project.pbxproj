@@ -14,6 +14,7 @@
 		9BAA003A22FD937A0040CC26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BAA003822FD937A0040CC26 /* LaunchScreen.storyboard */; };
 		9BAA004522FD937A0040CC26 /* CalculatorProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAA004422FD937A0040CC26 /* CalculatorProTests.swift */; };
 		9BAA005022FD937A0040CC26 /* CalculatorProUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAA004F22FD937A0040CC26 /* CalculatorProUITests.swift */; };
+		9BAA006023012AE10040CC26 /* historyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAA005F23012AE10040CC26 /* historyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9BAA004B22FD937A0040CC26 /* CalculatorProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BAA004F22FD937A0040CC26 /* CalculatorProUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorProUITests.swift; sourceTree = "<group>"; };
 		9BAA005122FD937A0040CC26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BAA005F23012AE10040CC26 /* historyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = historyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				9BAA002F22FD93750040CC26 /* AppDelegate.swift */,
 				9BAA003122FD93750040CC26 /* ViewController.swift */,
 				9BAA003322FD93750040CC26 /* Main.storyboard */,
+				9BAA005F23012AE10040CC26 /* historyViewController.swift */,
 				9BAA003622FD937A0040CC26 /* Assets.xcassets */,
 				9BAA003822FD937A0040CC26 /* LaunchScreen.storyboard */,
 				9BAA003B22FD937A0040CC26 /* Info.plist */,
@@ -258,6 +261,7 @@
 			files = (
 				9BAA003222FD93750040CC26 /* ViewController.swift in Sources */,
 				9BAA003022FD93750040CC26 /* AppDelegate.swift in Sources */,
+				9BAA006023012AE10040CC26 /* historyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
